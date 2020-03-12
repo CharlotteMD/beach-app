@@ -29,11 +29,11 @@ jobs:
           name: Run tests
           command: npm run test
       - run:
-        name: Check formatting with prettier
-        command: npm run format
+          name: Check formatting with prettier
+          command: npm run format
       - run:
-        name: Run ES Lint
-        command: npm run lint
+          name: Run ES Lint
+          command: npm run lint
 workflows:
   version: 2
   build_and_test:
