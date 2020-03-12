@@ -1,3 +1,8 @@
 h1 {
   color: pink;
 }
+
+li {
+  color: lime;
+  font-family: cursive;
+}
