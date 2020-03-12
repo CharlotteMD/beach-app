@@ -16,10 +16,10 @@ jobs:
           command: npm run format
       - run:
           name: Clean up with the linter
-          command: npm run lint
+          command: npm run lint:fix
       - run:
           name: Run ES Lint
-          command: npm run lint:fix
+          command: npm run lint
   build:
     docker:
       - image: circleci/node:lts # this will almost always be the case unless the project needs a custom docker file
