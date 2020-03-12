@@ -7,7 +7,7 @@ jobs:
       - checkout # step in ci that gets code from GitHub
       - run:
           name: Run tests
-          command: 'echo "I'll build these tests later!"'
+          command: 'echo "I will build these tests later!"'
       - run:
           name: Install Dependencies
           command: npm install
