@@ -8,12 +8,12 @@ import { Extra } from "./js/components/Extra";
 class App extends Component {
   render() {
     return (
-      <>
+      <div>
         <Home />
         <p>This is my test site for practising</p>
         <About />
         <Extra />
-      </>
+      </div>
     );
   }
 }

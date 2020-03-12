@@ -2,7 +2,7 @@ import React from "react";
 
 export const Extra = () => {
   return (
-    <>
+    <div>
       <h4>Stretch goals include:</h4>
       <ul>
         <li>Some kind of dashboard</li>
@@ -13,6 +13,6 @@ export const Extra = () => {
         <li>Tests</li>
         <li>React Router</li>
       </ul>
-    </>
+    </div>
   );
 };
