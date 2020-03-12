@@ -9,7 +9,7 @@ export const About = () => {
         <li>Styled components</li>
         <li>A CRUD API</li>
         <li>Webpack - tick!</li>
-        <li>Circle CI - next!</li>
+        <li>Circle CI - tick!</li>
         <li>ES Lint (or similar)</li>
       </ul>
     </>
