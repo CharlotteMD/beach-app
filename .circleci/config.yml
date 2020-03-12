@@ -6,6 +6,7 @@ jobs:
     steps:
       - checkout # step in ci that gets code from GitHub
       - run: 'echo "We built something"'
+      - run: "npm install"
       - run: "npm run build"
   test:
     docker:
