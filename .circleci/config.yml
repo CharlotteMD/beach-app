@@ -22,8 +22,18 @@ jobs:
       - image: circleci/node:lts
     steps:
       - checkout
-      - run: 'npm install'
-      - run: 'npm run test'
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Run tests
+          command: npm run test
+      - run:
+        name: Check formatting with prettier
+        command: npm run format
+      - run:
+        name: Run ES Lint
+        command: npm run lint
 workflows:
   version: 2
   build_and_test:
