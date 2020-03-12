@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 export const About = () => {
   return (
@@ -13,5 +13,5 @@ export const About = () => {
         <li>ES Lint (or similar)</li>
       </ul>
     </>
-  );
-};
+  )
+}
